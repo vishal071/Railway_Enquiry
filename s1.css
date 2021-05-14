@@ -1,0 +1,54 @@
+body {
+ background-size: cover;
+background-attachment: fixed;
+}
+
+body::after {
+  content: "";
+  background: url(img.png);
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;  
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+.head1{
+  left: 0%;
+  right: 0%;
+  font-size: 300%;
+  font-weight: bolder;
+  text-align: center;
+  
+  padding: 2%;
+  
+  
+  font-family: "Times New Roman", Times, serif;
+ 
+ 
+}
+.head1::after {
+  content: "";
+  background: linear-gradient(to bottom,#0066ff 0%, #99ccff 100%);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;  
+  border: 1px solid black;
+  box-shadow:  4px 4px 4px #888888;
+   border-radius: 10px 0px 10px 10px;
+  }
+  .inpuen{
+    margin-top: 2%; 
+    padding-bottom: 2%; 
+    border: 1px solid black;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+  }
+  
